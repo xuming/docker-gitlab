@@ -3,6 +3,67 @@
 This file only reflects the changes that are made in this image. Please refer to the upstream GitLab [CHANGELOG](
 https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) for the list of changes in GitLab.
 
+<<<<<<< HEAD
+=======
+**11.3.0**
+- gitlab: upgrade CE to v11.3.0
+- Fix backup config stripping for when AWS & GCS backups are disabled [#1725](https://github.com/sameersbn/docker-gitlab/pull/1725)
+- Correct Backup Date format for selective backups [#1699](https://github.com/sameersbn/docker-gitlab/pull/1699)
+- Fix gitlay-ssh symlink to enable rebase/squash in forks 
+
+**11.2.3**
+- gitlab: upgrade CE to v11.2.3
+
+**11.2.2**
+- gitlab: upgrade CE to v11.2.2
+
+**11.2.1**
+- gitlab: upgrade CE to v11.2.1
+
+**11.2.0**
+- gitlab: upgrade CE to v11.2.0
+- ADD `GITLAB_DEFAULT_THEME`
+
+**11.1.4**
+- gitlab: upgrade CE to v11.1.4
+
+**11.1.3**
+- gitlab: upgrade CE to v11.1.3
+- Upgrade redis to 4.0.9-1
+
+**11.1.2**
+- gitlab: upgrade CE to v11.1.2
+
+**11.1.1**
+- gitlab: upgrade CE to v11.1.1
+
+**11.1.0**
+- gitlab: upgrade CE to v11.1.0
+
+**11.0.4**
+- gitlab: upgrade CE to v11.0.4
+
+**11.0.3**
+- gitlab: upgrade CE to v11.0.3
+- ruby: update to 2.4
+
+**11.0.2**
+- gitlab: upgrade CE to v11.0.2
+
+**11.0.1**
+- gitlab: upgrade CE to v11.0.1
+
+**11.0.0**
+- gitlab: upgrade CE to v11.0.0
+
+**10.8.4**
+- gitlab: upgrade CE to v10.8.4
+
+**10.8.3-1**
+- Fix boot loops that were introduced during [#1621](https://github.com/sameersbn/docker-gitlab/pull/1621) and will be fixed with [#1628](https://github.com/sameersbn/docker-gitlab/pull/1628)
+
+
+>>>>>>> sameersbin/master
 **10.8.3**
 - gitlab: upgrade CE to v10.8.3
 - Fix potential boot problems on clean setups [#1621](https://github.com/sameersbn/docker-gitlab/pull/1621)
