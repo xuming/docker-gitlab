@@ -3,8 +3,6 @@
 This file only reflects the changes that are made in this image. Please refer to the upstream GitLab [CHANGELOG](
 https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) for the list of changes in GitLab.
 
-<<<<<<< HEAD
-=======
 **11.3.0**
 - gitlab: upgrade CE to v11.3.0
 - Fix backup config stripping for when AWS & GCS backups are disabled [#1725](https://github.com/sameersbn/docker-gitlab/pull/1725)
@@ -63,7 +61,6 @@ https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG.md) for the list o
 - Fix boot loops that were introduced during [#1621](https://github.com/sameersbn/docker-gitlab/pull/1621) and will be fixed with [#1628](https://github.com/sameersbn/docker-gitlab/pull/1628)
 
 
->>>>>>> sameersbin/master
 **10.8.3**
 - gitlab: upgrade CE to v10.8.3
 - Fix potential boot problems on clean setups [#1621](https://github.com/sameersbn/docker-gitlab/pull/1621)

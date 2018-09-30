@@ -1519,10 +1519,7 @@ configure_gitlab() {
     GITLAB_SIGNUP_ENABLED \
     GITLAB_PROJECTS_LIMIT \
     GITLAB_USERNAME_CHANGE \
-<<<<<<< HEAD
-=======
     GITLAB_DEFAULT_THEME \
->>>>>>> sameersbin/master
     GITLAB_CREATE_GROUP 
 
   gitlab_configure_database

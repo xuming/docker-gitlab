@@ -19,11 +19,7 @@ case ${1} in
         SUPERVISOR_PID=$!
         migrate_database
         kill -15 $SUPERVISOR_PID
-<<<<<<< HEAD
-        wait $SUPERVISOR_PID
-=======
         ps h -p $SUPERVISOR_PID > /dev/null && wait $SUPERVISOR_PID
->>>>>>> sameersbin/master
         rm -rf /var/run/supervisor.sock
         exec /usr/bin/supervisord -nc /etc/supervisor/supervisord.conf
         ;;
