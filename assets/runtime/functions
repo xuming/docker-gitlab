@@ -463,7 +463,8 @@ gitlab_configure_ldap() {
     LDAP_BASE \
     LDAP_USER_FILTER \
     LDAP_LOWERCASE_USERNAMES \
-    LDAP_LABEL
+    LDAP_LABEL \
+    LDAP_USERNAME
 }
 
 gitlab_configure_oauth_cas3() {
